@@ -1,2 +1,2 @@
 # Melatoni.github.io
-Colorizing the Prokudin-Gorskii photo collection
+An overview of some of the computer vision projects I have worked on at Berkeley.
