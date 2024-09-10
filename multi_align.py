@@ -34,7 +34,7 @@ def nccAlign(a, b, t):
     return output
 
 # Image Pyramid-based alignment with improved accuracy and efficiency
-def pyramidAlign(a, b, max_levels=2, scale=0.5, t=10):
+def pyramidAlign(a, b, max_levels=4, scale=0.5, t=15):
     pyramid_a = [a]
     pyramid_b = [b]
 
@@ -93,7 +93,7 @@ def process_image(imname):
     im_out = automatic_cropping(im_out)
 
     # Convert and save as JPG
-    fname = 'processed_image/train.jpg'
+    fname = 'processed_image/lady.jpg'
     skio.imsave(fname, im_out)
 
     skio.imshow(im_out)
@@ -101,4 +101,4 @@ def process_image(imname):
 
 # This part ensures that multiprocessing works correctly
 if __name__ == "__main__":
-    process_image('data/train.tif')
+    process_image('data/lady.tif')
