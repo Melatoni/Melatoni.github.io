@@ -1,5 +1,5 @@
 # CS180/CS280A Project
-
+To see the images and my website, use the link: https://Melatoni.github.io
 ## Overview
 This project involves image alignment using Normalized Cross-Correlation (NCC) and image pyramids.
 
